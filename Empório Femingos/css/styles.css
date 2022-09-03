@@ -1,0 +1,432 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*mensagem de frete*/
+#frete{
+    background-color: rgb(191, 139, 24);
+    padding: 4px 0px;
+    width: 100%;
+    line-height: 28px;
+    display: grid;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#x{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right ;
+}
+
+/* parte inicial*/
+#fundo{
+    background-image: url(../imagens/fundo.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.containeer .box {
+    display: flex;
+    flex-direction : row;  
+}
+ul li{
+    align-items: left;
+    display: inline-block;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-family: Vollkorn, serif;
+    font-size: 20px;
+    text-decoration: none; 
+    padding-left: 3vh;
+}
+#nav{
+    padding-left: 4vh;
+    padding-top: 9vh;
+    padding-right: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right ;
+    padding-right: 25vh;
+}
+#plastico{
+    padding-top: 35vh;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Vollkorn, serif;
+    font-size: 30px;
+}
+button{
+    background-color: rgb(54, 87, 65);
+    color: rgb(249, 177, 166);
+    line-height: 7vh;
+    width: 15vw;
+}
+#botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+}
+body{
+    background-color: rgb(247, 237, 215);
+}
+
+/* lista de 4 produtos*/
+.produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 22vh;
+}
+h1{
+    font-family: Vollkorn, serif;
+    font-size: 38px;
+    color: rgb(54, 87, 65);
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    padding-top: 4vw;
+}
+#produto{
+    width: 200px;
+    height: 100px;
+}
+#produto1 img{
+    padding-left: 15vh;
+    width: 400px;
+    height: 300px;
+}
+#produto2 img{
+    width: 310px;
+    height: 300px;
+}
+#produto3 img{
+    padding-left: 15vh;
+    padding-top: 3vh;
+    width: 400px;
+    height: 300px; 
+}
+#produto4 img{
+    padding-top: 3vh;
+    padding-right: 15vh;
+    width: 400px;
+    height: 300px;
+}
+
+hr{
+    border-top-color: rgb(191, 139, 24);
+    border-top-style: solid;
+    border-width: 1px 0 0 0;
+    border-top-width: 1px;
+    width: 50px;
+    margin: 20px auto;
+    padding-bottom: 5vh;
+}
+
+/*conheca nossos principais materiais*/
+#materiaiscriativos{
+    font-family: Vollkorn, serif;
+    font-size: 38px;
+    color: rgb(54, 87, 65);
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    padding-top: 4vw;
+}
+.materiais{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 22.22% 22.22% 22.22%;
+}
+figcaption{
+    color: rgb(86, 86, 86);
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    padding-top: 1vh;
+}
+#img img{
+    padding-right: 1vh;
+    width: 30vw;
+    height: 43vh;
+    padding-left: 15vh;
+    display: inline-block;
+    padding-top: 7vh;
+}
+
+/* parte sobre nós*/
+#criar{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+#h1{    
+    color: rgb(54, 87, 65);
+    font-family: Vollkorn, serif;
+    font-size: 38px;
+    padding-bottom: 2vh;
+}
+#h2{
+    padding-top: 7vh;
+    color: rgb(54, 87, 65);
+    font-family: Vollkorn, serif;
+    font-size: 29px;
+}
+#p1{
+    color: rgb(86, 86, 86);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding-bottom: 8vh;
+    padding-top: 3vh;
+}
+#p2{
+    color: rgb(86, 86, 86);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    padding-top: 2vh;
+}
+.container .box {
+    display: flex;
+    flex-direction : row;  
+ }
+#familia{
+    padding-left: 35vh;
+}
+#sobre{
+    padding-bottom: 2vh;
+    padding-left: 4vh;
+}
+#botao2{
+    background-color: rgb(54, 87, 65);
+    font-family: Vollkorn,serif;
+    color: #f9b1a6;
+    font-size: 13px;
+    border-bottom-width: 1.11667px;
+    border-bottom-style: solid;
+    line-height: 7vh;
+    width: 8vw;
+}
+#h1api{
+    padding-top: 5vw;
+
+}
+
+/*parte vamos criar juntos*/
+#p3{
+    color: rgb(86, 86, 86);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding-left: 8vh;
+    padding-right: 8vh;
+}
+#h3{
+    color: rgb(54, 87, 65);
+    font-family: Vollkorn, serif;
+    font-size: 36px;
+    padding-top: 7vw;
+}
+#criacoes{
+    padding-left: 3vh;
+    padding-bottom: 4vw;
+}
+
+/*video do youtube*/
+#h4{
+    padding-top: 10vh;
+    color: rgb(54, 87, 65);
+    font-family: Vollkorn, serif;
+    font-size: 38px;
+}
+#video{
+    position: center;
+    padding-left: 15vw;
+    padding-bottom: 6vh;
+}
+
+/*jornal da nacao criativa*/
+#nacao{
+    color: rgb(54, 87, 65);
+    display: block;
+    font-family: Vollkorn, serif;
+    font-size: 38px;
+    padding-top: 3vw;
+}
+#jornal{
+    background-color: rgb(249, 177, 166);
+    height: 50vh;
+}
+#p5{
+    color: rgb(86, 86, 86);
+    font-family: Lato, sans-serif;
+    font-size: 16px; 
+    text-align: center;
+}
+#emial{
+    line-height: 3vh;
+    padding-bottom: 2vh;
+    padding-left: 34vw;
+    line-height: 8vh;
+    width: 8vw;
+}
+#email{
+    background-color: rgb(247, 237, 215);
+    width: 30vw;
+    height: 9vh;
+    padding-left: 5vh;
+    line-height: 4vh;
+}
+#mail{
+    color:#565656;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    padding-right: 3vh;
+}
+label{
+    color:#565656;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+}
+#inscrever{
+    background-color: rgb(54, 87, 65);
+    line-height: 4vh;
+    color: rgb(249, 177, 166);
+    width: 7vw;
+    font-size: 16; 
+}
+.containerr{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+#produtos img{
+    width: 45%;
+    height: 500px;
+}
+#materiais img{
+    width: 10%;
+    height: 200px;
+}
+
+/*cometarios*/
+#comentarios{
+    padding-left: 35vh;
+    padding-top: 5vh;
+}
+#falando{
+    color: rgb(54, 87, 65);
+    display: block;
+    font-family: Vollkorn, serif;
+    font-size: 35px;
+    padding-top: 8vh;
+}
+#de{
+    color: #565656;
+    padding-bottom: 5vh;
+}
+#box{
+    padding-top: 5vw;
+    padding-left: 40vh;
+}
+#cometario1{
+    padding-left: 23vh;
+    float:left; 
+    width:25%;
+    height:280px;
+    text-align: center;
+}
+#cometario2{
+    padding-left: 5vh;
+    float:left; 
+    width:25%;
+    height:280px;
+    text-align: center;
+}
+#cometario3{
+    padding-left: 5vh;
+    float:right;
+    width:25%;
+    height:280px;
+    text-align: center;
+}
+#cometario1 p{
+    text-align: center;
+    color: #565656;
+    font-family: Lato, sans-serif;
+    font: 16px;
+}
+#cometario1 b{
+    text-align: center;
+    color: rgb(86, 86, 86);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+}
+#cometario2 p{
+    text-align: center;
+    color: #565656;
+    font-family: Lato, sans-serif;
+    font: 16px;
+}
+#cometario2 b{
+    text-align: center;
+    color: rgb(86, 86, 86);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+}
+#cometario3 p{
+    text-align: center;
+    color: #565656;
+    font-family: Lato, sans-serif;
+    font: 16px;
+}
+#cometario3 b{
+    color: rgb(86, 86, 86);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+}
+
+/*rodapé*/
+#rodape dt{
+    color: #565656;
+    padding-left: 30vh;
+    font: 16px;
+}
+#shopify dd{
+    color: #565656;
+    padding-left: 30vh;
+    font: 16px;
+}
+#contato{
+    float:left; 
+    width:33%;
+    height:280px;
+}
+#redes{
+    float:left; 
+    width:33%;
+    height:280px;
+}
+#shopify{
+    float:right;
+    width:33%;
+    height:280px;
+}
